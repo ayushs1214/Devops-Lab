@@ -1,0 +1,17 @@
+git config user.name "ayushs1214"
+
+git config user.email "ayushsingh1214@gmail.com"
+
+cd desktop
+
+echo "# Devops-Lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ayushs1214/Devops-Lab.git
+git push -u origin main
+
+git add .
+git commit -m "Commands"
+git push -u origin main
